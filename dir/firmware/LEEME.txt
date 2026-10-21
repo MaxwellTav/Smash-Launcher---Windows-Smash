@@ -1,0 +1,2 @@
+﻿Pon aquí los archivos .nca del firmware de tu consola (de ahí salen las fuentes del juego).
+Si tienes Citron, yuzu, suyu, Sudachi, Eden o Ryujinx con firmware instalado, el launcher lo encuentra solo y esta carpeta puede quedar vacía.

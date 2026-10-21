@@ -1,0 +1,2 @@
+﻿Pon aquí la última actualización (.nsp), por ejemplo la 13.0.5 [01006A800016E800][v2031616].
+Con la 13.0.5 basta: las actualizaciones son acumulativas, no hace falta poner las anteriores.

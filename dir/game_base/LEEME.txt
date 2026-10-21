@@ -1,0 +1,2 @@
+﻿Pon aquí el juego base de Super Smash Bros. Ultimate: un archivo .nsp o .xci (directo en esta carpeta).
+Si está comprimido (.nsz / .xcz), descomprímelo antes a .nsp / .xci.

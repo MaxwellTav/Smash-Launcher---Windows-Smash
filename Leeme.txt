@@ -1,0 +1,48 @@
+SUPER SMASH BROS. ULTIMATE - PC (WindowSmash)
+=============================================
+
+PRIMERA VEZ
+-----------
+1. Pon tus archivos en las carpetas de "dir":
+     dir\game_base\     el juego base (.nsp o .xci)                    obligatorio
+     dir\last_update\   la última actualización (.nsp, ej. 13.0.5)     recomendado
+     dir\dlcs\          los DLC (.nsp), directamente, sin subcarpetas  opcional
+     dir\keys\          prod.keys y title.keys                         obligatorio*
+     dir\firmware\      los .nca del firmware (para las fuentes)       obligatorio*
+   * Si tienes Citron, yuzu, suyu, Sudachi, Eden o Ryujinx con llaves y firmware,
+     el launcher los encuentra solo y estas carpetas pueden quedar vacías.
+2. Abre "SSBU Launcher.exe". Revisa tus archivos y tu PC, y con "Comenzar
+   instalación" descarga la última versión de WindowSmash de GitHub y compila
+   el juego con tus archivos (de 1 a 3 horas; la PC sigue usable).
+   - No se instala nada en Windows: Git, Python y el compilador quedan aquí dentro.
+   - Hacen falta ~60 GB libres en este disco, 8 GB de RAM y una CPU con AVX2.
+   - Si no tienes Visual Studio, te pedirá aceptar la licencia de Microsoft para
+     descargar su compilador de C (~570 MB).
+   - Si se corta (o apagas la PC), al abrir el launcher continúa donde se quedó.
+3. Al terminar, compila los shaders (botón Shaders) para jugar sin tirones.
+
+DESPUÉS
+-------
+  Smash ........... Jugar.
+  Shaders ......... Precompila todos los shaders (hazlo una vez: evita tirones).
+  Controles ....... Asigna botones, zona muerta, vibración, gatillos y teclado.
+  Opciones ........ Gráficos (resolución, límite de FPS...), rendimiento y herramientas.
+  En línea ........ Lobby público, crear sala o unirse a una.
+  ¡Actualización disponible! (bajo En línea): baja la nueva versión de GitHub,
+                    la compila e instala. El launcher la busca cada vez que abre.
+  Rayo (barra) .... Precarga total: carga en memoria los shaders antes de jugar.
+
+Navegación: flechas o mando para moverte, Enter para aceptar, Esc para volver,
+Q / E (o L / R) para cambiar de pestaña, F11 para pantalla completa.
+
+CARPETAS
+--------
+  dir\               tus archivos del juego (no los borres: el juego lee el base de aquí)
+  source\            WindowSmash y sus herramientas (no lo borres: las actualizaciones lo usan)
+  game\              el juego listo para jugar
+  game\save\         tus partidas
+  game\screenshots\  capturas (F3 en el juego)
+  tools\             Git portátil, precompilador de shaders y desbloqueo de luchadores
+
+En el juego: F1 contador de rendimiento, F2 detalles, F3 captura, F11 pantalla completa,
+Esc ajustes.

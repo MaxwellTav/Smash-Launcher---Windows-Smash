@@ -1,0 +1,2 @@
+﻿Pon aquí prod.keys y title.keys (sacadas de tu consola).
+Si tienes Citron, yuzu, suyu, Sudachi, Eden o Ryujinx con sus llaves, el launcher las encuentra solo y esta carpeta puede quedar vacía.
